@@ -12,14 +12,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],\
     "dependencyTreeRoots": [\
       {\
-        "name": "@simply-dev/root",\
+        "name": "@thesimplyinitiative/nx-template",\
         "reference": "workspace:."\
       }\
     ],\
     "enableTopLevelFallback": true,\
     "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
     "fallbackExclusionList": [\
-      ["@simply-dev/root", ["workspace:."]]\
+      ["@thesimplyinitiative/nx-template", ["workspace:."]]\
     ],\
     "fallbackPool": [\
     ],\
@@ -30,11 +30,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@commitlint/cli", "npm:17.4.0"],\
             ["@commitlint/config-conventional", "npm:17.4.0"],\
-            ["@commitlint/config-nx-scopes", "virtual:7b71e8139388276aabdf6984414d3611dd909b06b102cbdb83a4be77ba99721de30e853a641b6b4ed26e1c87df4b63eae987a22db5791a0f488c87a476060d1f#npm:17.4.0"],\
+            ["@commitlint/config-nx-scopes", "virtual:7c647c7632139aeb39255771cd96f9209a226519bd5654c83ce31a952e5ffdd95597cec146b723c7b080fe43f02a223db0399dd27b93b49d31b81a7d6b44ba81#npm:17.4.0"],\
             ["@digitalroute/cz-conventional-changelog-for-jira", "npm:8.0.0"],\
-            ["@nrwl/devkit", "virtual:7b71e8139388276aabdf6984414d3611dd909b06b102cbdb83a4be77ba99721de30e853a641b6b4ed26e1c87df4b63eae987a22db5791a0f488c87a476060d1f#npm:15.4.5"],\
+            ["@nrwl/devkit", "virtual:7c647c7632139aeb39255771cd96f9209a226519bd5654c83ce31a952e5ffdd95597cec146b723c7b080fe43f02a223db0399dd27b93b49d31b81a7d6b44ba81#npm:15.4.5"],\
             ["@nrwl/js", "npm:15.4.4"],\
-            ["@nrwl/workspace", "virtual:7b71e8139388276aabdf6984414d3611dd909b06b102cbdb83a4be77ba99721de30e853a641b6b4ed26e1c87df4b63eae987a22db5791a0f488c87a476060d1f#npm:15.4.4"],\
+            ["@nrwl/workspace", "virtual:7c647c7632139aeb39255771cd96f9209a226519bd5654c83ce31a952e5ffdd95597cec146b723c7b080fe43f02a223db0399dd27b93b49d31b81a7d6b44ba81#npm:15.4.4"],\
             ["commitizen", "npm:4.2.6"],\
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.1.0"],\
@@ -113,10 +113,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:7b71e8139388276aabdf6984414d3611dd909b06b102cbdb83a4be77ba99721de30e853a641b6b4ed26e1c87df4b63eae987a22db5791a0f488c87a476060d1f#npm:17.4.0", {\
-          "packageLocation": "./.yarn/__virtual__/@commitlint-config-nx-scopes-virtual-3de041da72/0/cache/@commitlint-config-nx-scopes-npm-17.4.0-e6b12e0bc1-edb4aeb3ce.zip/node_modules/@commitlint/config-nx-scopes/",\
+        ["virtual:7c647c7632139aeb39255771cd96f9209a226519bd5654c83ce31a952e5ffdd95597cec146b723c7b080fe43f02a223db0399dd27b93b49d31b81a7d6b44ba81#npm:17.4.0", {\
+          "packageLocation": "./.yarn/__virtual__/@commitlint-config-nx-scopes-virtual-f32b657464/0/cache/@commitlint-config-nx-scopes-npm-17.4.0-e6b12e0bc1-edb4aeb3ce.zip/node_modules/@commitlint/config-nx-scopes/",\
           "packageDependencies": [\
-            ["@commitlint/config-nx-scopes", "virtual:7b71e8139388276aabdf6984414d3611dd909b06b102cbdb83a4be77ba99721de30e853a641b6b4ed26e1c87df4b63eae987a22db5791a0f488c87a476060d1f#npm:17.4.0"],\
+            ["@commitlint/config-nx-scopes", "virtual:7c647c7632139aeb39255771cd96f9209a226519bd5654c83ce31a952e5ffdd95597cec146b723c7b080fe43f02a223db0399dd27b93b49d31b81a7d6b44ba81#npm:17.4.0"],\
             ["@types/nx", null],\
             ["nx", "virtual:8554f391c5fd19bd833d5240edd82c711a50f4a3d68f6e6c467c199269b3abeac2367615e5878c3c2553813eed173de65a609fc5fce7405d1c68150cda6449af#npm:15.4.4"]\
           ],\
@@ -461,10 +461,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:7b71e8139388276aabdf6984414d3611dd909b06b102cbdb83a4be77ba99721de30e853a641b6b4ed26e1c87df4b63eae987a22db5791a0f488c87a476060d1f#npm:15.4.5", {\
-          "packageLocation": "./.yarn/__virtual__/@nrwl-devkit-virtual-c5b085d372/0/cache/@nrwl-devkit-npm-15.4.5-0885c02a97-90d10ab7fb.zip/node_modules/@nrwl/devkit/",\
+        ["virtual:7c647c7632139aeb39255771cd96f9209a226519bd5654c83ce31a952e5ffdd95597cec146b723c7b080fe43f02a223db0399dd27b93b49d31b81a7d6b44ba81#npm:15.4.5", {\
+          "packageLocation": "./.yarn/__virtual__/@nrwl-devkit-virtual-a83d2f5934/0/cache/@nrwl-devkit-npm-15.4.5-0885c02a97-90d10ab7fb.zip/node_modules/@nrwl/devkit/",\
           "packageDependencies": [\
-            ["@nrwl/devkit", "virtual:7b71e8139388276aabdf6984414d3611dd909b06b102cbdb83a4be77ba99721de30e853a641b6b4ed26e1c87df4b63eae987a22db5791a0f488c87a476060d1f#npm:15.4.5"],\
+            ["@nrwl/devkit", "virtual:7c647c7632139aeb39255771cd96f9209a226519bd5654c83ce31a952e5ffdd95597cec146b723c7b080fe43f02a223db0399dd27b93b49d31b81a7d6b44ba81#npm:15.4.5"],\
             ["@phenomnomnominal/tsquery", "virtual:c60b6779c1a60835d2d681128be13f2b298de3ff414c46f8ddee0e9efb372786eb2dc82b46c07574158fd6ba492de591001619eec72e38198b18d5ab0754389d#npm:4.1.1"],\
             ["@types/nx", null],\
             ["ejs", "npm:3.1.8"],\
@@ -568,10 +568,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:7b71e8139388276aabdf6984414d3611dd909b06b102cbdb83a4be77ba99721de30e853a641b6b4ed26e1c87df4b63eae987a22db5791a0f488c87a476060d1f#npm:15.4.4", {\
-          "packageLocation": "./.yarn/__virtual__/@nrwl-workspace-virtual-8c061485ae/0/cache/@nrwl-workspace-npm-15.4.4-5948d37000-06f0f368f5.zip/node_modules/@nrwl/workspace/",\
+        ["virtual:7c647c7632139aeb39255771cd96f9209a226519bd5654c83ce31a952e5ffdd95597cec146b723c7b080fe43f02a223db0399dd27b93b49d31b81a7d6b44ba81#npm:15.4.4", {\
+          "packageLocation": "./.yarn/__virtual__/@nrwl-workspace-virtual-ac6ae9df6c/0/cache/@nrwl-workspace-npm-15.4.4-5948d37000-06f0f368f5.zip/node_modules/@nrwl/workspace/",\
           "packageDependencies": [\
-            ["@nrwl/workspace", "virtual:7b71e8139388276aabdf6984414d3611dd909b06b102cbdb83a4be77ba99721de30e853a641b6b4ed26e1c87df4b63eae987a22db5791a0f488c87a476060d1f#npm:15.4.4"],\
+            ["@nrwl/workspace", "virtual:7c647c7632139aeb39255771cd96f9209a226519bd5654c83ce31a952e5ffdd95597cec146b723c7b080fe43f02a223db0399dd27b93b49d31b81a7d6b44ba81#npm:15.4.4"],\
             ["@nrwl/devkit", "virtual:8554f391c5fd19bd833d5240edd82c711a50f4a3d68f6e6c467c199269b3abeac2367615e5878c3c2553813eed173de65a609fc5fce7405d1c68150cda6449af#npm:15.4.4"],\
             ["@nrwl/linter", "virtual:8554f391c5fd19bd833d5240edd82c711a50f4a3d68f6e6c467c199269b3abeac2367615e5878c3c2553813eed173de65a609fc5fce7405d1c68150cda6449af#npm:15.4.4"],\
             ["@parcel/watcher", "npm:2.0.4"],\
@@ -680,18 +680,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["@simply-dev/root", [\
+      ["@thesimplyinitiative/nx-template", [\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@simply-dev/root", "workspace:."],\
+            ["@thesimplyinitiative/nx-template", "workspace:."],\
             ["@commitlint/cli", "npm:17.4.0"],\
             ["@commitlint/config-conventional", "npm:17.4.0"],\
-            ["@commitlint/config-nx-scopes", "virtual:7b71e8139388276aabdf6984414d3611dd909b06b102cbdb83a4be77ba99721de30e853a641b6b4ed26e1c87df4b63eae987a22db5791a0f488c87a476060d1f#npm:17.4.0"],\
+            ["@commitlint/config-nx-scopes", "virtual:7c647c7632139aeb39255771cd96f9209a226519bd5654c83ce31a952e5ffdd95597cec146b723c7b080fe43f02a223db0399dd27b93b49d31b81a7d6b44ba81#npm:17.4.0"],\
             ["@digitalroute/cz-conventional-changelog-for-jira", "npm:8.0.0"],\
-            ["@nrwl/devkit", "virtual:7b71e8139388276aabdf6984414d3611dd909b06b102cbdb83a4be77ba99721de30e853a641b6b4ed26e1c87df4b63eae987a22db5791a0f488c87a476060d1f#npm:15.4.5"],\
+            ["@nrwl/devkit", "virtual:7c647c7632139aeb39255771cd96f9209a226519bd5654c83ce31a952e5ffdd95597cec146b723c7b080fe43f02a223db0399dd27b93b49d31b81a7d6b44ba81#npm:15.4.5"],\
             ["@nrwl/js", "npm:15.4.4"],\
-            ["@nrwl/workspace", "virtual:7b71e8139388276aabdf6984414d3611dd909b06b102cbdb83a4be77ba99721de30e853a641b6b4ed26e1c87df4b63eae987a22db5791a0f488c87a476060d1f#npm:15.4.4"],\
+            ["@nrwl/workspace", "virtual:7c647c7632139aeb39255771cd96f9209a226519bd5654c83ce31a952e5ffdd95597cec146b723c7b080fe43f02a223db0399dd27b93b49d31b81a7d6b44ba81#npm:15.4.4"],\
             ["commitizen", "npm:4.2.6"],\
             ["husky", "npm:8.0.3"],\
             ["lint-staged", "npm:13.1.0"],\

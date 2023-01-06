@@ -1,9 +1,9 @@
 {
-  "name": "@simply-dev/root",
+  "name": "@thesimplyinitiative/nx-template",
   "workspaces": [
     "packages/**/*"
   ],
-  "repository": "https://github.com/thesimplyinitiative/simply-dev",
+  "repository": "nx-template",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,

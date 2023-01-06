@@ -1,8 +1,8 @@
-<a href="https://github.com/thesimplyinitiative/simply-dev">
+<a href="https://github.com/thesimplyinitiative/nx-template">
   <img src="assets/logo.png" alt="Logo">
 </a>
 
-# @simply-dev
+# @nx-template
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
@@ -26,6 +26,7 @@ Run `yarn nx graph` to see a diagram of the dependencies of the projects.
 
 The monorepo uses Yarn Berry with Plug n Play (PnP). It doesn't have a `node_modules` directory, nor does it require one. You can learn more about Yarn Berry [here](https://yarnpkg.com/getting-started/migration).
 `
+
 ## Monorepo Commands
 
 This package uses `yarn workspaces`. You can learn more about workspaces [here](https://yarnpkg.com/features/workspaces).

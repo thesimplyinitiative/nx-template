@@ -494,9 +494,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@simply-dev/root@workspace:.":
+"@thesimplyinitiative/nx-template@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@simply-dev/root@workspace:."
+  resolution: "@thesimplyinitiative/nx-template@workspace:."
   dependencies:
     "@commitlint/cli": ^17.4.0
     "@commitlint/config-conventional": ^17.4.0
