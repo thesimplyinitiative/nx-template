@@ -46,7 +46,8 @@
     ],
     "*.{ts,tsx}": [
       "tsc --noEmit"
-    ]
+    ],
+    "!(packages/**/*)*.{js,jsx,ts,tsx}": "eslint --cache --fix"
   },
   "config": {
     "commitizen": {
